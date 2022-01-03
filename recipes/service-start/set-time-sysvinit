@@ -1,0 +1,16 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:             set-time
+# Required-Start:       networking
+# Required-Stop:
+# Default-Start:        2 3 4 5
+# Default-Stop:         1
+# Short-Description:    Start `set-time` service
+### END INIT INFO
+#
+
+if [ "$1" = "start" ]
+then
+	/usr/sbin/set-time &
+	exit 0
+fi
