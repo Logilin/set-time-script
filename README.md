@@ -16,14 +16,14 @@ sessions.
 ## Recipes
 
 A Yocto Project recipe is present with a `sysvinit` startup script.
-You can copy this file into a custom layer.
+You can copy the `set-time_1.0.bb` file directly into a custom layer.
 
 
 ## Licences
 
 The `set-time.sh` script and the Yocto Project recipe are distributed under
-GPLv.2 license terms.
-The present documention is distributed under Creative Commons 4.0 CC-By-Sa.
+GPLv.2 license terms. The present documention is distributed under Creative
+Commons 4.0 CC-By-Sa.
 
 
 ## Author
