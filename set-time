@@ -26,7 +26,7 @@ NTPD_OPTIONS="-n -q -p"
 hwclock -s
 
 # If the date is invalid,
-if [ ! hwclock -r | grep '2022' ]; then
+if ! hwclock -r | grep '2022'; then
 
 	# set a default date of 2022/01/01 12:00:00,
 	# this will seem less weird than 1970/01/01.
